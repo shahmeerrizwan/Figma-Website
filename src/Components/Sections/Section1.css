@@ -1,0 +1,18 @@
+.s-1 {
+  top: 170px;
+  position: relative;
+  height: 80vh;
+}
+.s-1 img {
+  width: 70%;
+  margin: auto;
+  display: flex;
+}
+.s-1 p {
+  margin-top: 30px;
+  font-size: 28px;
+  font-weight: 700;
+  text-align: center;
+  color: #0a346ae8;
+  width: 100%;
+}

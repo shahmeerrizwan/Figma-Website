@@ -1,10 +1,14 @@
 import Navbar from "./Components/Navbar/Navbar";
+import Section1 from "./Components/Sections/Section1";
+import Section2 from "./Components/Sections/Section2";
 
 function App() {
   return (
-    <div className="">
+    <>
       <Navbar />
-    </div>
+      <Section1 />
+      <Section2 />
+    </>
   );
 }
 

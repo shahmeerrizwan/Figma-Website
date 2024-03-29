@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+.App {
+  text-align: center;
+}
+
+.product {
+  margin-bottom: 20px;
+}
+
+.cart {
+  margin-top: 50px;
+}
+
+.cart-item {
+  margin-bottom: 10px;
+}

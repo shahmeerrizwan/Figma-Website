@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
+import './Navbar.css';
 import logo from '../../Assets/logo.png';
 import linkedin from '../../Assets/in-logo.png';
 import insta from '../../Assets/ig-logo.png';
 
 
-import './Navbar.css';
 
 const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -28,27 +28,43 @@ const Navbar = () => {
     }, [menuOpen]);
 
     return (
-        <div>
-            <nav >
-                <input type="checkbox" id="click" checked={menuOpen} onChange={() => setMenuOpen(!menuOpen)} />
-                <label htmlFor="click" className="menu-btn">
-                    <i className="fa fa-align-left"></i>
-                    <div >
-                        <a href='/'><img className='logoo' src={logo} alt="" /></a>
-                        <span className='line'>/</span>
-                        <span className='grp'>GROUP</span>
-                    </div>
-                </label>
-                <ul>
-                    <li onClick={handleMenuItemClick} ><img src={insta} alt='...' /></li>
-                    <li onClick={handleMenuItemClick} ><img src={linkedin} alt='...' /></li>
 
-                    <li onClick={handleMenuItemClick} >Subscribe</li>
-                    <li onClick={handleMenuItemClick}>|</li>
-                    <li onClick={handleMenuItemClick}>Menu</li>
-                </ul>
-            </nav>
-        </div>
+        <nav >
+            <input type="checkbox" id="click" checked={menuOpen} onChange={() => setMenuOpen(!menuOpen)} />
+            <label htmlFor="click" className="menu-btn">
+                <i className="fa fa-align-left"></i>
+                <a href='/'><img className='logoo' src={logo} alt="" /></a>
+            </label>
+            <div className={`${menuOpen ? 'openfirst' : 'openscnd'}`}>
+                <span className='line'>/</span>
+                <span className='grp'>GROUP</span>
+            </div>
+            <div className={`${menuOpen ? 'openone' : 'opentwo'}`}>
+                <img src={insta} alt='...' />
+                <img className='img-2' src={linkedin} alt='...' />
+                <span>Subscribe</span>
+                <span>|</span>
+                <span>Menu</span>
+            </div>
+            <ul>
+                <li onClick={handleMenuItemClick}>Über uns</li>
+                <li onClick={handleMenuItemClick}>Karriere</li>
+                <li onClick={handleMenuItemClick}>Captial</li>
+                <li onClick={handleMenuItemClick}>Consulting</li>
+                <li onClick={handleMenuItemClick}>Studios</li>
+                <li onClick={handleMenuItemClick}>Network</li>
+                <li onClick={handleMenuItemClick}>Sports</li>
+                <li onClick={handleMenuItemClick}>Kontakt</li>
+                <li className='last-1'>© 2023 COPYRIGHT. <br />
+                    <span className='l-n'>IMPRESSUM </span>
+                    <span className='l-n'> DATENSCHUTZ</span>  </li>
+                <li className='last-2'>KÜFFNER Group <br />
+                    Tölzerstraße 1, 82031 Grünwald <br />
+                    info@kueffner-group.com</li>
+            </ul>
+
+
+        </nav>
     );
 };
 
