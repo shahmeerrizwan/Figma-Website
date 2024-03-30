@@ -6,8 +6,12 @@ function App() {
   return (
     <>
       <Navbar />
-      <Section1 />
       <Section2 />
+      <Section1 />
+      <br />
+      <br />
+      <br />
+      <br />
     </>
   );
 }
