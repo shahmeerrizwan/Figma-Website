@@ -2,6 +2,10 @@ import React from 'react'
 import './Section2.css'
 import img1 from '../../Assets/sec-2-i-1.jpg'
 import img2 from '../../Assets/s-2-i-2.png'
+import linkedin from '../../Assets/9.png'
+import www from '../../Assets/www.png'
+
+
 
 
 export default function Section2() {
@@ -20,13 +24,31 @@ export default function Section2() {
             <div className='s-2-i'>
                 <div className='im-1'>
                     <img src={img1} alt='' />
-                    <h2>Andreas Küffner</h2>
-                    <p>Founder</p>
+                    <div className='f-i-d'>
+                        <h2>Andreas Küffner</h2>
+                        <p>Founder</p>
+                        <span className='img-s'>
+                            <img src={www} alt='...' />
+                            <img src={linkedin} alt='...' /></span>
+
+                    </div>
                 </div>
+                <div className='s-i-d'>
 
-                <div className='im-2'><img src={img2} alt='' /></div>
+                    <div className='im-2'><img src={img2} alt='' />
+                        <div className='f-i-d'>
+                            <h2>Manuel Grund</h2>
+                            <p>Geschäftsführer</p>
+                            <span className='img-s'>
+                                <img src={www} alt='...' />
+                                <img src={linkedin} alt='...' /></span>
 
+                        </div>
+                    </div>
+
+                </div>
             </div>
+
         </div>
     )
 }
