@@ -17,7 +17,7 @@ export default function Section2() {
 
                 <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla rerum adipisci sint sequi, numquam sunt atque ipsam culpa facilis inventore, porro repudiandae? Nam ullam numquam ipsam et facere eum dolores commodi unde necessitatibus, harum quos consequatur rem provident quidem minus quis laborum laudantium quia culpa reprehenderit fuga quisquam ea consectetur deleniti. Nam eum ullam omnis, rerum iusto ipsa consequatur aliquam veniam perspiciatis, molestiae dolore dolorem, architecto suscipit ea cumque ratione iste quam dolores quia autem sunt quidem deleniti! Et sint ullam soluta.
                 </p>
-                <button><i class="fa fa-play-circle"></i> Play Video</button>
+                <button><i className="fa fa-play-circle"></i> Play Video</button>
                 <button className='btn-1'>Kontakt</button>
 
             </div>

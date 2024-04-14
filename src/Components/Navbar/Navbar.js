@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 import './Navbar.css';
 import logo from '../../Assets/logo.png';
 import linkedin from '../../Assets/in-logo.png';
+import linke from '../../Assets/9.png';
+
 import insta from '../../Assets/ig-logo.png';
 
 
@@ -40,10 +42,12 @@ const Navbar = () => {
                 <span className='grp'>GROUP</span>
             </div>
             <div className={`${menuOpen ? 'openone' : 'opentwo'}`}>
-                <img src={insta} alt='...' />
-                <img className='img-2' src={linkedin} alt='...' />
-                <span>Subscribe</span>
-                <span>|</span>
+                <div className='link-i-e'>
+                    <img src={insta} alt='...' />
+                    <img className='img-2' src={linkedin} alt='...' />
+                </div>
+                <span className='hide-s'>Subscribe</span>
+                <span className='hide-s'>|</span>
                 <span>Menu</span>
             </div>
             <ul>
@@ -61,6 +65,10 @@ const Navbar = () => {
                 <li className='last-2'>KÜFFNER Group <br />
                     Tölzerstraße 1, 82031 Grünwald <br />
                     info@kueffner-group.com</li>
+                <li><div className='l-n-87'>
+                    <img src={insta} alt='...' />
+                    <img className='img-2' src={linke} alt='...' />
+                </div></li>
             </ul>
 
 

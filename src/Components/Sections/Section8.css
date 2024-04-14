@@ -1,7 +1,7 @@
 .s-4-m-8 {
   background-image: url("../../Assets/BG-5.png");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top;
   width: 100%;
   height: 100vh;
   position: relative;
@@ -11,7 +11,7 @@
   text-align: center;
   color: #ffffff;
   font-weight: 900;
-  font-size: 65px;
+  font-size: 75px;
 }
 
 .t-m-8 {
