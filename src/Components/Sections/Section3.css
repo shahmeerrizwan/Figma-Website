@@ -1,13 +1,15 @@
 .t-s-l {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   position: relative;
   top: 220px;
+  margin: 20px;
 }
 .text-1 {
   position: relative;
   gap: 60px;
   display: flex;
+  left: 2%;
 }
 .text-1 p {
   font-size: 60px;
@@ -39,7 +41,7 @@
   text-align: end;
 }
 .s-c-p {
-  left: 4%;
+  right: 2%;
   position: relative;
 }
 .img-all {

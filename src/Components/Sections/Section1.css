@@ -16,3 +16,24 @@
   color: #0a346ae8;
   width: 100%;
 }
+@media (max-width: 900px) {
+  .s-1 img {
+    width: 65%;
+  }
+  .s-1 p {
+    font-size: 20px;
+  }
+}
+@media (max-width: 750px) {
+  .s-1 img {
+    width: 60%;
+  }
+  .s-1 p {
+    font-size: 15px;
+  }
+}
+@media (max-width: 500px) {
+  .s-1 img {
+    width: 100%;
+  }
+}

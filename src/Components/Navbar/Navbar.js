@@ -3,7 +3,7 @@ import './Navbar.css';
 import logo from '../../Assets/logo.png';
 import linkedin from '../../Assets/in-logo.png';
 import linke from '../../Assets/9.png';
-
+import insta1 from '../../Assets/11.png'
 import insta from '../../Assets/ig-logo.png';
 
 
@@ -59,16 +59,16 @@ const Navbar = () => {
                 <li onClick={handleMenuItemClick}>Network</li>
                 <li onClick={handleMenuItemClick}>Sports</li>
                 <li onClick={handleMenuItemClick}>Kontakt</li>
-                <li className='last-1'>© 2023 COPYRIGHT. <br />
+                <span className='s-p-l'> <li className='last-1'>© 2023 COPYRIGHT. <br />
                     <span className='l-n'>IMPRESSUM </span>
                     <span className='l-n'> DATENSCHUTZ</span>  </li>
-                <li className='last-2'>KÜFFNER Group <br />
-                    Tölzerstraße 1, 82031 Grünwald <br />
-                    info@kueffner-group.com</li>
-                <li><div className='l-n-87'>
-                    <img src={insta} alt='...' />
-                    <img className='img-2' src={linke} alt='...' />
-                </div></li>
+                    <li className='last-2'>KÜFFNER Group <br />
+                        Tölzerstraße 1, 82031 Grünwald <br />
+                        info@kueffner-group.com</li>
+                    <li><div className='l-n-87'>
+                        <img src={insta1} width={"25px"} height={"25px"} alt='...' />
+                        <img className='img-2' src={linke} alt='...' />
+                    </div></li></span>
             </ul>
 
 
