@@ -1,7 +1,7 @@
 .s-1 {
-  top: 170px;
+  height: 70vh;
+  top: 100px;
   position: relative;
-  height: 80vh;
 }
 .s-1 img {
   width: 70%;
@@ -22,6 +22,11 @@
   }
   .s-1 p {
     font-size: 20px;
+  }
+}
+@media (max-width: 1150px) {
+  .s-1 {
+    height: auto;
   }
 }
 @media (max-width: 750px) {

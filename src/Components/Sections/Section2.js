@@ -79,7 +79,7 @@ export default function Section2() {
                 <div className='s-c-p'>
 
                     <h1>Behind the brand</h1>
-                    <p>Hinter jeder großen Unternehmung trägt ein noch viel stärkeres Team von <br />
+                    <p>Hinter jeder großen Unternehmung trägt ein noch viel stärkeres Team von
                         Talenten und passionierten Menschen zum Erfolg bei.</p>
                     <div className='img-all'>
                         <img src={img90} alt='..' />

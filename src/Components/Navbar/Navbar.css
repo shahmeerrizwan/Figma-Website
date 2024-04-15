@@ -60,7 +60,7 @@ nav ul li {
   margin-right: -100%;
   font-size: 20px;
   position: relative;
-  top: 14%;
+  top: 12%;
   text-align: center;
   color: #ffffff;
   text-decoration: none;
@@ -258,6 +258,6 @@ nav .menu-btn i {
     overflow-x: hidden;
   }
   nav ul li {
-    top: 13%;
+    top: 16%;
   }
 }
