@@ -5,10 +5,14 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+body {
+  padding-top: 80px;
+}
 nav {
   display: inline-block;
   height: 80px;
   position: fixed;
+  padding: 80px;
   width: 100%;
   background-color: rgba(255, 255, 255, 0.475);
   align-items: center;
@@ -16,6 +20,7 @@ nav {
   padding: 0 50px 0 100px;
   flex-wrap: wrap;
   z-index: 100;
+  top: 0;
 }
 
 nav ul {
@@ -60,7 +65,7 @@ nav ul li {
   margin-right: -100%;
   font-size: 20px;
   position: relative;
-  top: 12%;
+  top: 18%;
   text-align: center;
   color: #ffffff;
   text-decoration: none;
@@ -70,9 +75,12 @@ nav ul li {
   letter-spacing: 2px;
   cursor: pointer;
 }
-
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
 nav ul li.active,
-nav ul li:hover {
+nav ul li a:hover {
   background: none;
   color: rgb(214, 211, 211);
   transition: none !important;
@@ -85,9 +93,8 @@ nav ul li:hover {
   float: inline-start;
   text-align: justify;
   font-size: 18px;
-  top: 17%;
+  top: 29%;
   left: 20px;
-
   font-size: 13px;
   letter-spacing: 1px;
   font-weight: 600 !important;
@@ -99,7 +106,7 @@ nav ul li:hover {
   display: flex;
   transition: 0.1s !important;
   justify-content: end;
-  top: 15%;
+  top: 25%;
 }
 .last-2:hover {
   color: white;

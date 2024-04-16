@@ -1,5 +1,5 @@
 .s-1 {
-  height: 70vh;
+  height: 90vh;
   top: 100px;
   position: relative;
 }
@@ -26,7 +26,9 @@
 }
 @media (max-width: 1150px) {
   .s-1 {
-    height: auto;
+    height: max-content;
+    top: 0;
+    margin-bottom: 25px;
   }
 }
 @media (max-width: 750px) {

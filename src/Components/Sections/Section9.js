@@ -72,13 +72,23 @@ export default function Section9() {
                 </div>
 
 
+            </div >
+
+            <div className='f-l-t-2'>
+                <h2>Family Office Adresse <br />
+                    <span>
+                        Tölzerstraße 1, 82031 Grünwald bei München<br /><br />
+
+                        info@kueffner-group.com</span></h2>
             </div>
             <div className='f-l-t'>
+
                 <h2>© 2023 Copyright. <br />
                     All rights reserved</h2>
                 <h2>Impressum & AGB <br />
                     Datenschutz</h2>
             </div>
+
         </>
     )
 }
