@@ -7,7 +7,6 @@ import map from '../../Assets/map.png'
 export default function Section9() {
     return (
         <>
-
             <div className='s-l-9'>
                 <div className='l-s-t'>
                     <img className='f-i-t' src={img} alt='...' />
@@ -19,7 +18,6 @@ export default function Section9() {
                             info@kueffner-group.com</span></h2>
                 </div>
                 <div className='s-l-9-2'>
-
                     <div className="bg_img"></div>
                     <div className="form_wrapper">
                         <div className="form_container">
@@ -70,8 +68,6 @@ export default function Section9() {
                         </div>
                     </div>
                 </div>
-
-
             </div >
 
             <div className='f-l-t-2'>
@@ -82,7 +78,6 @@ export default function Section9() {
                         info@kueffner-group.com</span></h2>
             </div>
             <div className='f-l-t'>
-
                 <h2>© 2023 Copyright. <br />
                     All rights reserved</h2>
                 <h2>Impressum & AGB <br />

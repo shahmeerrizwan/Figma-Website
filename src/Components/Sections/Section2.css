@@ -120,6 +120,7 @@
   .sec-2 {
     position: relative;
     display: block;
+    top: 0;
   }
   .s-2-c p {
     font-size: 14px;
@@ -133,16 +134,21 @@
     display: block !important;
   }
   .s-c-p {
+    padding-top: 30px;
     right: 4%;
     position: relative;
-    top: 45px;
     width: auto !important;
+    padding-bottom: 30px;
   }
   .s-c-p h1 {
     font-size: 31px !important;
   }
   .s-c-p p {
     font-size: 12px !important;
+  }
+  .t-s-l {
+    padding-top: 7px !important;
+    padding-bottom: 25px !important;
   }
 }
 @media (max-width: 700px) {
@@ -168,9 +174,7 @@
   .s-2-c p {
     font-size: 12px;
   }
-  .s-2-c {
-    bottom: 38px;
-  }
+
   .s-c-p {
     right: 2%;
     position: relative;
@@ -221,7 +225,9 @@
     right: 255px;
   }
   .s-c-p {
-    top: 145px;
+    padding-bottom: 104px;
+    top: 112px;
+    right: 0;
   }
   .f-i-d {
     width: 223px;
@@ -285,7 +291,8 @@
     font-size: 25px !important;
   }
   .s-c-p {
-    top: 50px;
+    top: 60px;
+    padding-bottom: 55px;
   }
 }
 @media (max-width: 400px) {
@@ -315,5 +322,16 @@
   }
   .s-c-p p {
     font-size: 8px !important;
+  }
+}
+@media (max-width: 370px) {
+  .text-1 span {
+    font-size: 10px;
+  }
+  .t-l-r-p-1 {
+    right: 58%;
+  }
+  .t-l-r-p {
+    left: 60%;
   }
 }

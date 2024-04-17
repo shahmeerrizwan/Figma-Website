@@ -2,7 +2,9 @@
   display: flex;
   justify-content: space-between;
   position: relative;
-  top: 50px;
+  top: 19px;
+  padding-top: 40px;
+  padding-bottom: 55px;
   margin: 20px;
 }
 .text-1 {

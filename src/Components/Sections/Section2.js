@@ -40,7 +40,6 @@ export default function Section2() {
                             <span className='img-s'>
                                 <img src={www} alt='...' />
                                 <img src={linkedin} alt='...' /></span>
-
                         </div>
                     </div>
                     <div className='s-i-d'>
@@ -52,12 +51,9 @@ export default function Section2() {
                             <span className='img-s'>
                                 <img src={www} alt='...' />
                                 <img src={linkedin} alt='...' /></span>
-
                         </div>
-
                     </div>
                 </div>
-
             </div>
 
             <div className='t-s-l'>
@@ -74,10 +70,9 @@ export default function Section2() {
 
                         <p>90<span className='span-1'>+Jahre gebündelte<br />
                             Erfahrung</span></p>
-
-                    </div> </div>
+                    </div>
+                </div>
                 <div className='s-c-p'>
-
                     <h1>Behind the brand</h1>
                     <p>Hinter jeder großen Unternehmung trägt ein noch viel stärkeres Team von
                         Talenten und passionierten Menschen zum Erfolg bei.</p>

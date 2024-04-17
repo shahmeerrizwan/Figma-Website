@@ -1,12 +1,10 @@
 .s-4-m-6 {
   background-image: url("../../Assets/bg-3.png");
   background-repeat: no-repeat;
-
   background-position: center;
   height: 937px;
   background-size: cover;
   position: relative;
-  top: 321px;
 }
 .t-m-6 h1 {
   text-align: center;
